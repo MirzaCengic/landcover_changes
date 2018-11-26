@@ -1,0 +1,34 @@
+---
+title: "BiH_landcover"
+author: "Mirza Cengic"
+date: "September 24, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r include=FALSE}
+
+pacman::p_load(Rahat, raster, sf, sp, tidyverse, gdalR, mapview, tictoc)
+
+bih_layers <- "Projects/Other/BiH/BiH_landcover/Data/Raster" %>% 
+  milkunize2() %>% 
+  list.files(full.names = TRUE) %>% 
+  stack()
+```
+
+```{r, plot_main_lc}
+
+bih_2015 <- bih_layers[[24]]
+```
+
+
+
+# Land cover analysis of Bosnia & Herzegovina.
+
+- Land cover - what is it?
+
+- 

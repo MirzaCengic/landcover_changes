@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1537816633024.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1630831739",
+    "id" : "691358E5",
+    "lastKnownWriteTime" : 1537830629,
+    "last_content_update" : 1537830629900,
+    "path" : "~/milkunB/Projects/Other/BiH/BiH_landcover/R/process_data.R",
+    "project_path" : "R/process_data.R",
+    "properties" : {
+        "cursorPosition" : "86,8",
+        "scrollLine" : "83"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

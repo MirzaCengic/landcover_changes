@@ -1,0 +1,9 @@
+{
+    "path" : "~/milkunB/Projects/Other/BiH/BiH_landcover/Data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
